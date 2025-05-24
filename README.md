@@ -7,24 +7,18 @@ Este projeto tem como objetivo o desenvolvimento de um sistema que simula algori
 ## 1. Objetivos do Projeto
 
 ### 1.1. Objetivo Geral  
-Desenvolver um simulador visual de escalonamento de processos que permita a compreensão prática e interativa dos algoritmos, oferecendo uma interface intuitiva e de fácil uso para estudantes e entusiastas da área.
-
-### 1.2. Objetivos Específicos  
-- Simular os principais algoritmos de escalonamento de processos  
-- Visualizar graficamente a execução dos processos  
-- Permitir entrada personalizada de dados pelo usuário  
-- Exibir estatísticas úteis como tempo de espera e tempo de retorno  
+Desenvolver um simulador visual de escalonamento de processos que permita a compreensão prática e interativa dos algoritmos, oferecendo uma interface intuitiva e de fácil uso.
 
 ## 2. Escopo do Projeto
 
 ### 2.1. Funcionalidades  
 - Simulação dos algoritmos:
   - **FIFO (First In, First Out)**
-  - **Prioridade (Preemptiva e Não Preemptiva)**
-  - **Round Robin (com tempo de quantum configurável)**
+  - **Prioridade (Não Preemptiva)**
+  - **Round Robin**
   - **SRTF (Shortest Remaining Time First)**
-- Entrada de processos personalizados (tempo de chegada, duração, prioridade)  
-- Exibição gráfica da linha do tempo (Gantt)  
+- Entrada de processos (tempo de chegada, duração, prioridade)  
+- Exibição gráfica da linha do tempo
 - Interface amigável utilizando **CustomTkinter**  
 - Relatório final com tempos médios de espera e turnaround  
 
@@ -33,22 +27,16 @@ Desenvolver um simulador visual de escalonamento de processos que permita a comp
 - CustomTkinter  
 - Programação modular (interface separada dos algoritmos)  
 
-### 2.3. Público-Alvo  
-Estudantes de graduação e ensino técnico em áreas como Sistemas de Informação, Ciência da Computação e afins.
-
-### 2.4. Metodologia de Desenvolvimento  
-Desenvolvimento ágil com entregas incrementais, priorizando a usabilidade da interface e a precisão dos algoritmos de escalonamento.
-
 ## 3. Como Executar
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/usuario/simulador-escalonamento.git
+   git clone https://github.com/losthotel/simulador-escalonamento.git
    ```
 
 2. Instale as dependências:
    ```bash
-   pip install -r requirements.txt
+   pip install customtkinter
    ```
 
 3. Execute o sistema:
@@ -60,6 +48,4 @@ Desenvolvimento ágil com entregas incrementais, priorizando a usabilidade da in
 
 ## 4. Atualizações no Repositório  
 Em desenvolvimento contínuo. Futuras versões incluirão:
-- Simulação com múltiplos núcleos (multithreading)  
 - Animações aprimoradas  
-- Exportação de resultados em PDF/CSV  
