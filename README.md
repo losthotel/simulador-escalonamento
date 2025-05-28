@@ -18,6 +18,7 @@ Desenvolver um simulador visual de escalonamento de processos que permita a comp
   - **Round Robin**
   - **SRTF (Shortest Remaining Time First)**
   - **SJF (Shortest Job First**
+  - **Multinível**
 - Entrada de processos (tempo de chegada, duração, prioridade)  
 - Exibição gráfica da linha do tempo
 - Interface amigável utilizando **CustomTkinter**  
